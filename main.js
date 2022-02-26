@@ -1,12 +1,7 @@
 // document.getElementById("press").addEventListener('click',nextOne);
 
 document.getElementById("press").addEventListener('click',catchQ);
-
-function nextOne(){
-    document.querySelector("#innerText").innerHTML = "This is life on Mars"
-    document.querySelector("#numAdv").innerHTML = "#7"
-}
-
+window.onload = catchQ;
 
 function catchQ (){
     fetch('https://api.adviceslip.com/advice')
