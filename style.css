@@ -5,6 +5,9 @@
   
 body{
     background-color:#202632;
+    font-family: 'Manrope';
+    font-weight: 800px;
+    text-align: center;
 }
 
 body section{
@@ -47,16 +50,32 @@ p{
     color: #56FFB0;
 }
 
-.svgBackground{
+.dice{
     border: 2px solid white;
     z-index: 0;
     border-radius: 40px;
     padding: 5% 5% 5% 5%;
     margin: 5% 5% 5% 5%;
-    background-color: transparent;
+    background-color: #56FFB0;
+    opacity: 100%;
+
 }
-.middle{
+/* .middle{
     display: block;
     align-content: center;
     margin: auto;
+} */
+
+@media all and (min-width: 375) {
+    .desktop{
+        display: block;
+        align-content: center;
+        margin: auto;
+        border: 5px solid white;
+    }
+
+    .mobile{
+        display: none;
+    }
 }
+

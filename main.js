@@ -10,8 +10,9 @@ function catchQ (){
     })
     .then(function(data){
         document.getElementById("innerText").innerHTML = data.slip.advice;
-        document.getElementById("numAdv").innerHTML = data.slip.id;
+        document.getElementById("numAdv").innerHTML = "ADVICE # " + data.slip.id;
     })
+    .catch((error) => console.log(error))
 }
 
 
