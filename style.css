@@ -33,5 +33,9 @@ li{
 }
 
 .firstLi{
-    margin-left: -7%;
+    margin-left: -5%;
+}
+
+span {
+    border: 2px solid white;
 }
