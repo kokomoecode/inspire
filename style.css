@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+  }
+
+  
+body{
+    background-color:#202632;
+}
+
+body section{
+    display: block;
+    background-color: #313A49;
+    border: 5px solid red;
+    color: #778995;
+    padding: 15% 15% 15% 15%;
+    margin: 10% 10% 10% 10%;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid gold;
+}
+
+li{
+    border: 3px solid white;
+    display: block;
+    list-style: none;
+    width: 50%;
+    margin-top: 0;
+    padding-top: 3%;
+}
+
+.firstLi{
+    margin-left: -7%;
+}
