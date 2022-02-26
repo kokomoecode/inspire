@@ -66,15 +66,30 @@ p{
     margin: auto;
 } */
 
-@media all and (min-width: 375) {
-    .desktop{
+@media all and (min-width: 376px) {
+    #desktop{
         display: block;
         align-content: center;
         margin: auto;
-        border: 5px solid white;
+
     }
 
-    .mobile{
+    #mobile{
+        display: none;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    #mobile{
+        display: block;
+        align-content: center;
+        margin: auto;
+        border: 3px solid white;
+
+    }
+
+    #desktop{
         display: none;
     }
 }
